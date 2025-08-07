@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "champions-league-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

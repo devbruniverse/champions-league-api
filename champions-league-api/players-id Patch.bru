@@ -1,0 +1,28 @@
+meta {
+  name: /players:id Patch
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:3333/api/players/20
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+      
+        "Overall": 60,
+        "Pace": 89,
+        "Shooting": 93,
+        "Passing": 82,
+        "Dribbling": 88,
+        "Defending": 35,
+        "Physical": 78
+  }
+}
+
+settings {
+  encodeUrl: true
+}
