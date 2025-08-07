@@ -88,6 +88,6 @@ All endpoints are prefixed with:
       "Dribbling": 88,
       "Defending": 35,
       "Physical": 78,
-    "},
+    },
   },
 ]
